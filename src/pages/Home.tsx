@@ -15,7 +15,9 @@ const Home: Component<any> = props => {
         Live broadcast and pre-recorded video production you can trust{" "}
       </p>
       <div class={styles.actions}>
-        <button class={styles.contact}>Contact</button>
+        <a href="#contact" class={styles.contact}>
+          Contact
+        </a>
         <span class={styles.scroll}>
           Scroll
           <span class={styles.indicator}>

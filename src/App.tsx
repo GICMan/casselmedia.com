@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 import styles from "./App.module.css";
 
@@ -15,7 +16,7 @@ const App: Component = () => {
   let mobile: boolean = false;
 
   const createTween = (target: any, trigger: any, horizontal: boolean) => {
-    let options = {
+    let options: any = {
       scrollTrigger: {
         horizontal,
         trigger,
@@ -72,6 +73,7 @@ const App: Component = () => {
       </div>
       <Home ref={homeRef} />
       <About ref={aboutRef} />
+      <Contact />
     </div>
   );
 };

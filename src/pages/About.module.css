@@ -1,5 +1,5 @@
 .about {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #202020;
 
   display: flex;
@@ -50,7 +50,7 @@
 
   .copy {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 }
