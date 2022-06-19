@@ -45,7 +45,7 @@
   width: 100%;
   border: none;
   min-height: 44px;
-  border-radius: 15px;
+  border-radius: 8px;
   padding-left: 20px;
   color: white;
 }
@@ -56,7 +56,7 @@
   resize: none;
   border: none;
   min-height: 44px;
-  border-radius: 15px;
+  border-radius: 8px;
   flex-grow: 1;
   padding-left: 20px;
   padding-top: 10px;
